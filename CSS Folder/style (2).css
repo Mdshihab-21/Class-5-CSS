@@ -1,0 +1,69 @@
+/* 
+    id== #
+    tag== tag name
+    class== .
+    overwrite== class--id--inlinestyling--!important
+*/
+#heading{
+    color:red;
+}
+/* div 1 start */
+
+.ent, .dif, .post{
+    width:400px;
+    background-image: url(../image/pic-2.png);
+    padding: 40px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    color: rgb(17, 17, 17);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    font-family: arial;
+    border-radius: 40px;
+    
+}
+.post p{
+    text-align: justify;
+    font-size: 20px;
+    line-height:30px;
+
+}
+.post a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    display: inline-block;
+    padding: 20px;
+
+}
+/* div 1 end */
+
+/* div 2 start */
+.dif{
+    background-image:url(https://img.freepik.com/free-vector/abstract-website-banner-with-modern-shapes_1361-1738.jpg?w=2000);
+    background-position: left;
+    color: rgb(39, 233, 39);
+}
+
+.dif a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    display: inline-block;
+    padding: 20px;
+
+}
+/* div2 end */
+
+/* div3 start */
+.ent{
+    background-image: linear-gradient(to right,#C6FFDD,#FBD786,#f7797d);
+    /*background-image: linear-gradient(to left,#C6FFDD,#FBD786,#f7797d);
+    background-image: linear-gradient(90deg,#C6FFDD,#FBD786,#f7797d);  */
+
+    /* gradient ui search--https://uigradients.com/--Show all gradients
+    Class-last 10 minites */
+}
+
+/* div3 end */
